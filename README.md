@@ -1,2 +1,5 @@
-# Phitron
-This repository contains my learning and practice about CSE Fundamental from phitron.io
+## Contributing
+
+This is a self learning course for myself.
+
+Please feel free to fork this repository. Pull request to submit more programs.
