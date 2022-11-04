@@ -11,8 +11,9 @@ int main() {
     {
         for(m=i; m>=1; m--)
         {
-            printf("%d \n",m);
+            printf("%d ",m);
         }
+        printf("\n");
     }
     return 0;
 }
