@@ -1,21 +1,22 @@
 #include <stdio.h>
 int main()
 {
-    int i,player,run,cnt=0;
-    scanf("%d",&player);
-    scanf("%d",&run);
-    int score[player];
-    for(i=0 ;i<player; i++)
+    int i,p,r,count=0;
+    scanf("%d",&p);
+    scanf("%d",&r);
+    int s[p];
+    for(i=0;i<p;i++)
     {
-        scanf("%d",&score[i]);
+        scanf("%d",&s[i]);
     }
-    for(i=0; i<player; i++)
+    for(i=0;i<p;i++)
     {
-        if(score[i]<run)
+        if(s[i]<r)
         {
-            cnt++;
+            count++;
         }
     }
+    printf("%d\n",count);
 
     return 0;
 }
