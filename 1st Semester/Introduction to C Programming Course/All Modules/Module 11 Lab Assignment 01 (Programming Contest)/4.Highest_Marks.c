@@ -5,25 +5,25 @@
 
 int main() {
 
-    int stu,hm,i;
-    scanf("%d",&stu);
-    int mark[stu];
-    for(i=0; i<stu; i++)
+    int s,m,i;
+    scanf("%d",&s);
+    int mark[s];
+    for(i=0; i<s; i++)
     {
         scanf("%d",&mark[i]);
     }
-    hm = mark[0];
-    for(i=0; i<stu; i++)
+    m = mark[0];
+    for(i=0; i<s; i++)
     {
-        if(mark[i]>hm)
+        if(mark[i]>m)
         {
-            hm = mark[i];
+            m = mark[i];
         }
     }
-    for(i=0; i<stu; i++)
+    for(i=0; i<s; i++)
     {
-       int r = hm - mark[i];
-       printf("%d ",r);
+       int deff = m - mark[i];
+       printf("%d ",deff);
     }
     return 0;
 }
