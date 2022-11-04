@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
-   long long int n,m;
+   long long int n,sum;
    scanf("%lld",&n);
-   m = (n*(n-1))/2;
-   printf("%lld",m);
+   sum = (n*(n-1))/2;
+   printf("%lld",sum);
+   return 0;
 }
